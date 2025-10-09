@@ -1,0 +1,23 @@
+.bg-cornflowerblue{
+    background-color: cornflowerblue;
+}
+.bg-yellowgreen-c-dimgray{
+    background-color: yellowgreen;
+    /*color:dimgray;*/
+}
+
+.payasito{
+    background-color: fuchsia;
+    /*color: blue;*/
+}
+
+.text-20{
+    font-size: 20px;
+}
+.text-32{
+    font-size: 32px;
+}
+
+.lb-mediumpurple{
+    background-color: mediumpurple;
+}

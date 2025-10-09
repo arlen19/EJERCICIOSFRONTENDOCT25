@@ -1,0 +1,85 @@
+/*
+selector{
+bloque de declaraciones (son los atributos que vamos a modificar)
+atributos: valor;
+}
+*/
+
+h1{
+    color: orangered;
+    background-color: skyblue;
+}
+/*button{
+    background-color: green;
+    color: white;
+}*/
+/*otro tipo de selector es el de clase y se ocupa cuando se requiere estilo diferentes*/
+
+.bg-cornflowerblue{
+    background-color: cornflowerblue;
+}
+.bg-yellowgreen-c-dimgray{
+    background-color: yellowgreen;
+    /*color:dimgray;*/
+}
+
+.payasito{
+    background-color: fuchsia;
+    /*color: blue;*/
+}
+
+.text-20{
+    font-size: 20px;
+}
+.text-32{
+    font-size: 32px;
+}
+
+/*uso de colores*/
+/*usar colores por el nombre*/
+.color-by-name{
+    background-color: coral;
+    color: rebeccapurple;
+    border: thick solid greenyellow;
+}
+
+/* usar colores utilizando el sistema hexadecimal*/
+.color-hex{
+    background-color: #FF7F50;
+    color: #663399;
+    border: thick solid #9ACD32;
+}
+
+/*usar colores usando el formato rgb, red, green, blue*/
+.color-rgb{
+    background-color: rgb(255,127,80);
+    color: rgb(102,51,153);
+    border: thick solid rgb(173,255,47); 
+}
+
+.fondo-azul{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    align-items: center;
+    background-color: royalblue;
+    padding: 10px;
+    width: 20vw;
+    /*height: auto;*/
+    box-sizing: border-box;
+    color: white;
+    border-radius: 0%;
+}
+
+.boton-verde{
+    display:flex;
+    align-items: center;
+    justify-content: center;
+    width: 140px;
+    height: 30px;
+    margin-top: 20px;
+    background-color: yellowgreen;
+}
+
+
+
