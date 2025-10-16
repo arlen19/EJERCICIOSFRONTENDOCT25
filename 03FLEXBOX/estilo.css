@@ -1,0 +1,102 @@
+body{
+    background-color: aliceblue;
+}
+.contenedor{
+background-color: darkblue;
+color: white;
+padding: white;
+width: 80%;
+border: solid tick gray;
+border-radius: 8px;
+}
+ .formulario{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+ }
+
+ .caja{
+display: flex;
+flex-direction: row;
+}
+
+.caja label{
+    flex-basis: 150px;
+    margin: 5px 0px;
+}
+h2{
+    text-align: center;
+}
+
+button{
+    background-color: rgb(42, 146, 231);
+    color: white;
+    border: none;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    padding: 8px;
+    border-radius: 10px;
+    cursor: pointer;
+    transition: 500ms;
+}
+button:hover{
+    background-color: cadetblue;
+}
+
+.robotoFont{
+  font-family: "Roboto", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 100;
+  font-style: normal;
+  font-variation-settings:"wdth" 100;
+}
+
+.open-sans-Font{
+  font-family: "Open Sans", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 100;
+  font-style: normal;
+  font-variation-settings:"wdth" 100;
+}
+
+.montserrat-Font{
+  font-family: "Montserrat", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 100;
+  font-style: normal;
+}
+/*ejemplo con 3 contenedores*/
+.cuerpo{
+border: 2px solid white;
+}
+
+.flexbox-header{
+display: flex;    
+align-items: center;
+justify-content: center;
+height: auto;
+padding: 10px;
+width: 100%;
+box-sizing: border-box;
+color: white;
+background-color: purple;
+}
+
+.flexbox-parent{
+ display: flex;
+ flex-direction: row;
+ width: 100%;   
+ gap: 20px;
+ padding: 10px;
+ box-sizing: border-box;
+ }
+
+.flexbox-container{
+display: flex;
+flex-direction: column;
+background-color: aqua;
+flex-basis: 31vw;
+height: auto;
+padding: 10px;
+}
+
