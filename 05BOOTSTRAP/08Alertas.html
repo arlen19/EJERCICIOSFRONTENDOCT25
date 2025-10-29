@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html>
+     <header>
+            <title>Archivo base Bootstrap Via CDN</title>           
+            <meta name="viewport" content="width=device-width, initial-scale=1">
+            <meta charset="utf-8">
+            <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous">
+            <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js" integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI" crossorigin="anonymous"></script>           
+    </header>
+    <body>
+        <div class="container-fluid">
+            <h1>Alertas</h1>
+            <div class="alert alert-info">
+                <strong>Info!</strong> Bienvenidos al curso de Front End 2025 
+                <a href="https://bulma.io/documentation/form/general/" class="alert-link">Página del Framework</a>
+            </div>
+            <div class="alert alert-success alert-dismissible fade show" >
+                <button type="button" class="btn-close" data-bs-dismiss="alert" aria-label="Close"></button>
+                <strong>Exitoso</strong> El correo se ha enviado exitosamente 
+            </div>
+            <div class="alert alert-danger alert-dismissible fade show" >
+                <button type="button" class="btn-close" data-bs-dismiss="alert" aria-label="Close"></button>
+                <strong>Peligro</strong> Se genero un error al enviar el correo electronico, Favor de contactar a  
+                <a href="https://bulma.io/documentation/form/general/" class="alert-link"> Administrador</a>
+            </div>
+             <div class="alert alert-warning alert-dismissible fade show" >
+                <button type="button" class="btn-close" data-bs-dismiss="alert" aria-label="Close"></button>
+                <strong>Prevención</strong> Se genero una alerta al enviar el correo electronico, Favor de contactar a  
+                <a href="https://bulma.io/documentation/form/general/" class="alert-link"> Administrador</a>
+            </div>
+
+             <div class="alert alert-primary alert-dismissible fade show" >
+                <button type="button" class="btn-close" data-bs-dismiss="alert" aria-label="Close"></button>
+                <strong>Prioritario</strong> Se envio el correo electronico
+            </div>
+
+             <div class="alert alert-secondary alert-dismissible fade show" >
+                <button type="button" class="btn-close" data-bs-dismiss="alert" aria-label="Close"></button>
+                <strong>Secondario</strong> Favor de revisar su bandeja de entrada
+            </div>
+
+        </div>
+    </body>   
+</html>
