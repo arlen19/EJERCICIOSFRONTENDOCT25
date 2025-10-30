@@ -1,0 +1,172 @@
+<!DOCTYPE html>
+<html>
+     <header>
+            <title>Archivo base Bootstrap Via CDN</title>           
+            <meta name="viewport" content="width=device-width, initial-scale=1">
+            <meta charset="utf-8">
+            <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous">
+            <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js" integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI" crossorigin="anonymous"></script>           
+    </header>
+    <body>
+        <form>
+            <div class="container-fluid">
+            <div class="form-group">
+                <label>Correo electronico</label>
+                <input type="email" id="email" class="form-control-sm"> </input>
+            </div>
+
+            <div class="form-group">
+                <label>Contraseña</label>
+                <input type="pasword" id="pass" class="form-control"> </input>
+            </div>
+
+            <h2>Ejemplo de una caja tipo grande (large)</h2>
+            <div class="form-group">
+                <label>Calle</label>
+                <input type="text" id="calle" class="form-control form-control-lg"> </input>
+            </div>
+
+            <div class="form-group">
+                <label>Selecciona un dominio</label>
+                <select class="form-control" id="lista">
+                    <option>Edificios</option>
+                    <option>Coorporativo</option>
+                    <option>Sucursales</option>
+                </select>
+            </div>
+
+            <div class="form-group">
+                <label>Comentarios</label>
+                <textarea class="form-control" id="comentario"></textarea>
+            </div>
+
+            <div class="form-group">
+                <label>Selecciona un archivo</label>
+                <input type="file" id="archivo" class="form-control-file"> </input>
+            </div>
+
+            <br>
+
+            <div class="row g-3">
+                <div class="col-auto">
+                     <label>Usuario</label>
+                </div>
+                <div class="col-auto">
+                     <input type="text" class="form-control">
+                </div>
+                <div class="col-auto">
+                     <span id="ayuda" class="form-control">
+                        Su usuario debe contener minimo 8  caracteres
+                     </span>
+                </div>
+
+            </div>
+            <div class="row g-3">
+                <div class="col-sm-2">
+                    <label>Ciudad</label>
+                </div>
+                <div class="col-sm-4">
+                    <input type="text" class="form-control">
+                </div>
+                <div class="col-sm-6">
+                    <input type="text" class="form-control" placeholder="Ingresa un municipio">
+                </div>
+
+            </div>
+
+            <br>
+
+            <button class="btn btn-success btn-md">Registrar</button>
+            <button class="btn btn-success btn-md">Cancelar operacion</button>
+        </form>
+                </div>
+        <hr>
+        <!--Ejercicio de viajes-->
+        <h1 class="display-1 text-primary text-center">¿A donde te llevaremos?</h1>
+        <form>
+            <div class="container-fluid">
+                <div class="form-group">
+                    <label>Nombre completo</label>
+                    <input type="text" id="nom" class="form-control form-control-sm w-auto"> </input>
+                </div>
+                <div class="form-group d-flex justify-content-start gap-3 mt-4">
+                    <label>Selecciona una ciudad de origen</label>
+                    <select class="form-control form-control-sm w-auto" id="lista">
+                        <option>Ciudad de México</option>
+                        <option>Puebla</option>
+                        <option>Michoacan</option>
+                        <option>Veracruz</option>
+                    </select>
+
+                    <label>Selecciona una ciudad de destino</label>
+                    <select class="form-control form-control-sm w-auto" id="lista">
+                        <option>Ciudad de México</option>
+                        <option>Sinaloa</option>
+                        <option>Tabasco</option>
+                        <option>Zacatecas</option>
+                    </select>
+                </div>
+                <div class="form-group">
+                    <label>¿Cuantas personas viajan?</label>
+                    <select class="form-control form-control-sm w-auto" id="lista">
+                        <option>1</option>
+                        <option>2</option>
+                        <option>3</option>
+                        <option>4</option>
+                    </select>
+                </div>
+                <div class="form-group d-flex justify-content-start gap-3 mt-4">
+                    <label>Elije una fecha de ida</label>
+                    <input type="date" id="fecha" class="form-control form-control-sm w-auto"> </input>
+                
+                    <label>Elije una fecha de regreso</label>
+                    <input type="date" id="fecha" class="form-control form-control-sm w-auto"> </input>
+                </div>
+                <div class="form-group">
+                <h2>Selecciona tu medio de transporte (Solo se puede elegir 1 medio de transporte)</h2>
+            <ul class="list-group">
+                <li class="list-group-item">
+                    <input class="form-check-input me-1" name="medioTrans" type="radio" id="avion">
+                    <label class="form-check-label" >Avión</label>
+                </li>
+                <li class="list-group-item">
+                    <input class="form-check-input me-1" name="medioTrans" type="radio" id="autobus">
+                    <label class="form-check-label" >Autobús</label>
+                </li>
+                 <li class="list-group-item">
+                    <input class="form-check-input me-1" name="medioTrans" type="radio" id="tren">
+                    <label class="form-check-label" >Tren</label>
+                </li>
+
+            </ul>
+            <h2>Selecciona un tipo de alojamiento (Solo se puede elegir 1 tipo de alojamiento)</h2>
+            <ul class="list-group">
+                <li class="list-group-item">
+                    <input class="form-check-input me-1" name="tipoAlo" type="radio" id="hotel">
+                    <label class="form-check-label" >Hotel</label>
+                </li>
+                <li class="list-group-item">
+                    <input class="form-check-input me-1" name="tipoAlo" type="radio" id="motel">
+                    <label class="form-check-label" >Motel</label>
+                </li>
+                 <li class="list-group-item">
+                    <input class="form-check-input me-1" name="tipoAlo" type="radio" id="hostal">
+                    <label class="form-check-label" >Hostal</label>
+                </li>
+
+            </ul>
+                </div>
+                <div class="form-group form-control-sm">
+                <label>Comentarios</label>
+                <textarea class="form-control" id="comentario"></textarea>
+            </div>
+            </div>
+
+            <br>
+            <div class="d-flex justify-content-center gap-3">
+            <button class="btn btn-primary">Buscar Viaje</button>
+            <button class="btn btn-secondary">Cancelar operacion</button>
+            </div>
+        </form>       
+    </body>   
+</html>
